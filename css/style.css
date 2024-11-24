@@ -21,6 +21,13 @@ a:active {
     color: indigo
 }
 
+button{
+    background-color: transparent;
+    padding: 0;
+    border: 0;
+    cursor: pointer;
+}
+
 
 
 .container {
@@ -356,4 +363,26 @@ body {
     font-size: 32px;
     font-family: "Playfair Display", serif;
     font-style: italic;
+}
+
+.video {
+    margin-bottom: 150px;
+}
+
+.video__inner {
+}
+.video-box {
+    margin-left: auto;
+    max-width: 997px;
+    height: 600px;
+    background-image: url(../img/videoPlay.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video__btn {
+
 }
