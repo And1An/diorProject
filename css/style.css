@@ -21,7 +21,7 @@ a:active {
     color: indigo
 }
 
-button{
+button {
     background-color: transparent;
     padding: 0;
     border: 0;
@@ -311,8 +311,8 @@ body {
 }
 
 .products__inner {
-   position: relative;
-   min-height: 647px;
+    position: relative;
+    min-height: 647px;
 }
 
 .products__title {
@@ -323,16 +323,16 @@ body {
 }
 
 .products__items {
-     display: flex;
+    display: flex;
     gap: 0 20px;
-    position: absolute ;
+    position: absolute;
     top: 0;
     left: 200px;
 }
 
 .products_item {
     text-align: center;
-   
+
 }
 
 .products__item-step {
@@ -347,15 +347,15 @@ body {
 }
 
 .products__item-name {
-     margin-bottom: 10px ;
+    margin-bottom: 10px;
 
 }
 
-.products__item-name span{
+.products__item-name span {
     display: block;
     font-weight: 700;
-     margin-bottom: 10px ;
-   
+    margin-bottom: 10px;
+
 }
 
 .products__item-price {
@@ -369,8 +369,8 @@ body {
     margin-bottom: 150px;
 }
 
-.video__inner {
-}
+.video__inner {}
+
 .video-box {
     margin-left: auto;
     max-width: 997px;
@@ -383,6 +383,114 @@ body {
     justify-content: center;
     align-items: center;
 }
-.video__btn {
+
+.video__btn {}
+
+.footer {
+    background-color: #C4A9CD;
+    padding: 66px 0 100px;
 
 }
+
+.container {}
+
+.footer__top {
+    margin-bottom: 70px;
+    display: flex;
+    gap: 0 70px;
+    justify-content: space-between;
+
+}
+
+.footer__logo {
+    margin-right: 10px;
+}
+
+.footer__items {
+    flex-basis: 387px;
+}
+
+.footer__item {}
+
+.footer__item+.footer__item {
+    margin-top: 70px;
+}
+
+.footer__item-title {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.footer__item-form {
+    position: relative;
+}
+
+.footer__item-input {
+    width: 100%;
+    display: block;
+    padding: 10px 60px 10px 0;
+    border: none;
+    border-bottom: 1px solid #000;
+    background-color: #C4A9CD;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #1b1b1b;
+
+}
+
+.footer__item-btn {
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+
+.footer__item-input::placeholder {
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    color: #000;
+    opacity: 0.4;
+}
+
+
+
+.footer__item-list li {
+    padding-top: 10px;
+}
+
+.footer__social-list {
+    margin-left: 10px;
+    align-self: flex-end;
+    margin-right: 105px;
+}
+
+.footer__social-item+.footer__social-item {
+    margin-top: 20px;
+}
+
+.footer__social-item svg:hover path {
+    fill: #7449bb
+}
+
+.footer__social-item svg path {
+    transition: all .3s;
+}
+
+.footer__social-link {}
+
+.footer__nav {
+    display: flex;
+    margin-left: auto;
+    justify-content: flex-end;
+    margin-right: 105px;
+}
+
+.footer__nav-list {
+    display: flex;
+    gap: 0 20px;
+}
+
+.footer__nav-item {}
+
+.footer__nav-link {}
